@@ -1,6 +1,6 @@
 import type React from "react";
 
-export type ComponentPropsType = {
+export type UserCardPropsType = {
   name: string;
   age: number;
   status: "Active" | "Inactive" | "Pending";
