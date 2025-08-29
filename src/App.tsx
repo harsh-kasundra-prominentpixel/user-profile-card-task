@@ -12,13 +12,13 @@ function App() {
         />
         <UserCard
           age={31}
-          name="Devang Sanghani Devang Sanghani"
+          name="Juan Pablo Fernández de Calderón García-Iglesias"
           status="Inactive"
           avatarUrl="https://images.unsplash.com/photo-1722322426803-101270837197?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2ZpbGUlMjBwaWN8ZW58MHx8MHx8fDA%3D"
         />
         <UserCard
           age={21}
-          name="Harsh Kasundra"
+          name="Charlotte Rodriguez"
           status="Active"
           avatarUrl="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGUlMjBwaWN8ZW58MHx8MHx8fDA%3D"
         />
