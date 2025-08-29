@@ -10,10 +10,10 @@ const Tooltip: React.FC<TooltipPropsType> = ({children, content}) => {
       onMouseEnter={() => setIsVisible(true)}
       onMouseLeave={() => setIsVisible(false)}
     >
-      {children} {}
+      {children}
       {isVisible && (
-        <div className="absolute bottom-full -mb-1 p-2 bg-gray-800 text-white text-sm rounded transition-opacity-0 duration-1000 ease-in-out opacity-100 group-hover:opacity-100">
-          {content} {}
+        <div className="absolute bottom-full -mb-1 p-2 bg-gray-800 text-white text-sm rounded">
+          {content}
         </div>
       )}
     </div>
